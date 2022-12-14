@@ -52,15 +52,21 @@
                 text-decoration: none;
                 font-size: 12px;
             }
+            .add-produk {
+                background-color: #d4eb57;
+            }
         </style>
     </head>
     <body>
-    <h1>Data Produk</h1>
-        <a href="tambah_produk.php">+ &nbsp; Tambah roduk</a><br />
+        <center>
+            <h1>Data Produk</h1>
+            <a href="logout.php">Logout</a>
+            <a href="tambah_produk.php" class="add-produk">+ &nbsp; Tambah roduk</a><br /><br />
+        </center>
         <table>
             <thead>
                 <tr>
-                <th>No</th>
+                <th>NO</th>
                 <th>Produk</th>
                 <th>Dekripsi</th>
                 <th>Harga Beli</th>

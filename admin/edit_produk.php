@@ -43,14 +43,19 @@
                 color: salmon;
             }
 
-            button {
-                background-color: salmon;
+            a, button {
                 color: #fff;
                 padding: 10px;
                 text-decoration: none;
                 font-size: 12px;
                 border: 0px;
                 margin-top: 20px;
+            }
+            .back {
+                background-color: salmon;
+            }
+            .submit {
+                background-color: #3d6699;
             }
 
             label {
@@ -114,8 +119,10 @@
                     <input type="file" name="gambar_produk" />
                     <i style="float: left;font-size: 11px;color: red">Abaikan jika tidak merubah gambar produk</i>
                 </div>
+                <br>
                 <div>
-                    <button type="submit">Simpan Perubahan</button>
+                    <a href="index.php" class="back">Kembali</a> 
+                    <button type="submit" class="submit">Simpan Perubahan</button>
                 </div>
             </section>
             </form>

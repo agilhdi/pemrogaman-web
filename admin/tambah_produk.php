@@ -7,54 +7,62 @@
     <head>
         <title>CRUD Produk </title>
         <style type="text/css">
-        * {
-            font-family: "Trebuchet MS";
-        }
+            * {
+                font-family: "Trebuchet MS";
+            }
 
-        h1 {
-            text-transform: uppercase;
-            color: salmon;
-        }
+            h1 {
+                text-transform: uppercase;
+                color: salmon;
+            }
 
-        button {
-            background-color: salmon;
-            color: #fff;
-            padding: 10px;
-            text-decoration: none;
-            font-size: 12px;
-            border: 0px;
-            margin-top: 20px;
-        }
+            a, button {
+                background-color: salmon;
+                color: #fff;
+                padding: 10px;
+                text-decoration: none;
+                font-size: 12px;
+                border: 0px;
+                margin-top: 20px;
+            }
 
-        label {
-            margin-top: 10px;
-            float: left;
-            text-align: left;
-            width: 100%;
-        }
+            .back {
+                background-color: salmon;
+            }
 
-        input {
-            padding: 6px;
-            width: 100%;
-            box-sizing: border-box;
-            background: #f8f8f8;
-            border: 2px solid #ccc;
-            outline-color: salmon;
-        }
+            .submit {
+                background-color: #3d6699;
+            }
 
-        div {
-            width: 100%;
-            height: auto;
-        }
+            label {
+                margin-top: 10px;
+                float: left;
+                text-align: left;
+                width: 100%;
+            }
 
-        .base {
-            width: 400px;
-            height: auto;
-            padding: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            background: #ededed;
-        }
+            input {
+                padding: 6px;
+                width: 100%;
+                box-sizing: border-box;
+                background: #f8f8f8;
+                border: 2px solid #ccc;
+                outline-color: salmon;
+            }
+
+            div {
+                width: 100%;
+                height: auto;
+            }
+
+            .base {
+                width: 400px;
+                height: auto;
+                padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                background: #ededed;
+            }
         </style>
     </head>
     <body>
@@ -84,7 +92,8 @@
                     <input type="file" name="gambar_produk" required="" />
                 </div>
                 <div>
-                    <button type="submit">Simpan Produk</button>
+                    <a href="index.php" class="back">Kembali</a> 
+                    <button type="submit" class="submit">Simpan Perubahan</button>
                 </div>
             </section>
         </form>
