@@ -3,7 +3,7 @@
 
 Pada project ini kita akan membuat CRUD Produk untuk melanjutkan materi login sebelum nya, yang dimana CRUD merupakan singkatan : </br>
 `Create` : Membuat data / record baru yang akan masuk ke database kalian </br>
-`Read` : Menampilkan data dari ddatabasddatabasabasesddatddatabasdddatababasesddatabasddatabasabasesedddabasddatabasabasese </br>
+`Read` : Menampilkan data dari database </br>
 `Update` : Mengedit data / record kalian dari database </br>
 `Delete` : Menghapus data yang ada
 
@@ -20,7 +20,7 @@ Pada project ini kita akan membuat CRUD Produk untuk melanjutkan materi login se
 ## Mulai Instalasi
 
 Pertama silahkan download terlebih dahulu Project, dengan menekan `Code` kemudian `Download Zip`
-![image](https://user-images.githubusercontent.com/66126058/207925331-dd296899-9be1-49fb-b1cb-d1d8fbcf09f5.png)=
+![image](https://user-images.githubusercontent.com/66126058/207925331-dd296899-9be1-49fb-b1cb-d1d8fbcf09f5.png)
 Setelah proses download selesai maka ekstrak file zip yang sudah di download, kemudian pindahkan ke `C:\xampp\htdocs`
 
 ### Konfigurasi Database
