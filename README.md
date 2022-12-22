@@ -1,11 +1,15 @@
 ## Membuat CRUD Produk
 ![image](https://user-images.githubusercontent.com/66126058/207919854-7b34ea98-5f34-406b-860b-15c2099b431f.png)
 
-Pada project ini kita akan membuat CRUD Produk untuk melanjutkan materi login sebelum nya, yang dimana CRUD merupakan singkatan : </br>
+Pada project ini kita akan membuat CRUD dan Export Produk untuk melanjutkan materi login sebelum nya, yang dimana CRUD merupakan singkatan : </br>
 `Create` : Membuat data / record baru yang akan masuk ke database kalian </br>
 `Read` : Menampilkan data dari database </br>
 `Update` : Mengedit data / record kalian dari database </br>
 `Delete` : Menghapus data yang ada
+
+Export
+`PDF` : Export laporan produk dalam bentuk PDF </br>
+`Excel` : Export laporan produk dalam bentuk excel
 
 ### Di Built Dengan
 * [![HTML][html]][html-url]
