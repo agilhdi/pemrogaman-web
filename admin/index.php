@@ -62,6 +62,8 @@
             <h1>Data Produk</h1>
             <a href="logout.php">Logout</a>
             <a href="tambah_produk.php" class="add-produk">+ &nbsp; Tambah roduk</a><br /><br />
+            <a href="report-pdf.php" target="_BLANK">PRINT</a>
+            <a href="report-excel.php" target="_BLANK">Excel</a><br /><br />
         </center>
         <table>
             <thead>
