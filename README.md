@@ -7,7 +7,7 @@ Pada project ini kita akan membuat CRUD dan Export Produk untuk melanjutkan mate
 `Update` : Mengedit data / record kalian dari database </br>
 `Delete` : Menghapus data yang ada
 
-Export
+Export </br>
 `PDF` : Export laporan produk dalam bentuk PDF </br>
 `Excel` : Export laporan produk dalam bentuk excel
 
